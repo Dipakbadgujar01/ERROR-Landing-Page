@@ -40,11 +40,8 @@ const Boo = () => {
           <span className="h-fit w-fit text-8xl md:text-9xl font-bold text-neutral-700 drop-shadow-md">
             4
           </span>
-          <img
-            src="../../assets/Ghost.svg"
-            alt="Ghost"
-            className="Ghost-Img h-auto sm:h-full w-[130px] sm:w-auto drop-shadow-lg"
-          />
+<img src={`${process.env.PUBLIC_URL}/assets/Ghost.svg`} alt="Ghost" />
+
           <span className="h-fit w-fit text-8xl md:text-9xl font-bold text-neutral-700 drop-shadow-md">
             4
           </span>
